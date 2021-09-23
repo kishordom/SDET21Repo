@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-22T13:48:03 IST" name="Default suite" finished-at="2021-09-22T13:48:03 IST" duration-ms="65">
+  <suite started-at="2021-09-23T13:11:44 IST" name="Default suite" finished-at="2021-09-23T13:11:44 IST" duration-ms="77">
     <groups>
+      <group name="regressiontest">
+        <method signature="oragTest.createOrgWithleadTest()[pri:0, instance:com.comcast.organization.oragTest@16610890]" name="createOrgWithleadTest" class="com.comcast.organization.oragTest"/>
+        <method signature="oragTest.delectorgTest()[pri:0, instance:com.comcast.organization.oragTest@16610890]" name="delectorgTest" class="com.comcast.organization.oragTest"/>
+      </group> <!-- regressiontest -->
+      <group name="Smoketest">
+        <method signature="oragTest.createOrganizationTest()[pri:0, instance:com.comcast.organization.oragTest@16610890]" name="createOrganizationTest" class="com.comcast.organization.oragTest"/>
+      </group> <!-- Smoketest -->
     </groups>
-    <test started-at="2021-09-22T13:48:03 IST" name="Default test" finished-at="2021-09-22T13:48:03 IST" duration-ms="65">
-      <class name="com.comcast.Contact.contactTest">
-        <test-method signature="createContactTest()[pri:0, instance:com.comcast.Contact.contactTest@7133da86]" started-at="2021-09-22T13:48:03 IST" name="createContactTest" finished-at="2021-09-22T13:48:03 IST" duration-ms="15" status="PASS">
+    <test started-at="2021-09-23T13:11:44 IST" name="Default test" finished-at="2021-09-23T13:11:44 IST" duration-ms="77">
+      <class name="com.comcast.organization.oragTest">
+        <test-method signature="createOrgWithleadTest()[pri:0, instance:com.comcast.organization.oragTest@16610890]" started-at="2021-09-23T13:11:44 IST" name="createOrgWithleadTest" finished-at="2021-09-23T13:11:44 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTest -->
-      </class> <!-- com.comcast.Contact.contactTest -->
+        </test-method> <!-- createOrgWithleadTest -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:com.comcast.organization.oragTest@16610890]" started-at="2021-09-23T13:11:44 IST" name="createOrganizationTest" finished-at="2021-09-23T13:11:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method signature="delectorgTest()[pri:0, instance:com.comcast.organization.oragTest@16610890]" started-at="2021-09-23T13:11:44 IST" name="delectorgTest" finished-at="2021-09-23T13:11:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delectorgTest -->
+      </class> <!-- com.comcast.organization.oragTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
