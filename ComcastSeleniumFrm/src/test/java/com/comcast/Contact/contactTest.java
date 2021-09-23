@@ -10,6 +10,12 @@ public class contactTest {
 		System.out.println("execute createContactTest");
 	}
 
+	@Test(groups = "Smoketest")
+	public void validateContactTest() 
+	{
+		System.out.println("execute validateContactTest");
+	}
+
 	@Test(groups = "regressiontest")
 	public void createContactWithOrgTest() 
 	{
