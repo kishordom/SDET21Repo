@@ -1,5 +1,7 @@
 package com.comcast.Contact;
 
+import java.util.Set;
+
 import org.testng.annotations.Test;
 
 public class contactTest {
@@ -9,6 +11,18 @@ public class contactTest {
 	{
 		System.out.println("execute createContactTest");
 	}
+	
+	@Test(groups = "Smoketest")
+	public void contactTestwithurl() 
+	{
+		System.out.println("execute contactTestwithurl");
+		String URL = System.getProperty("env");
+		String BROWSER = System.getProperty("browser");
+		System.out.println("browser========="+BROWSER);
+		System.out.println("env============="+URL);
+		
+	}
+
 
 	@Test(groups = "Smoketest")
 	public void validateContactTest() 
